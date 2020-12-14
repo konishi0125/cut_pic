@@ -51,7 +51,7 @@ def resize_pic(img, max_lng):
 ok_list = []
 ng_list = []  
 
-path = os.getcwd()
+path = ""
 f_list = os.listdir(f'{path}/pic/')
 
 f_num = 1
