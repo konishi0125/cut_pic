@@ -68,15 +68,15 @@ for f in f_list:
     cv2.waitKey( 0 )
 
     if(x_ != 0 or y_ != 0):
-        ok_list.append(f"{f} {int(start_x/rate)} {int(start_y/rate)} {int(end_x/rate)} {int(end_y/rate)}")
+        ok_list.append(f"{f},{int(start_x/rate)},{int(start_y/rate)},{int(end_x/rate)},{int(end_y/rate)}")
     else:
         ng_list.append(f)
 
     cv2.destroyAllWindows()
 
 out_ok_list = "\n".join(ok_list)
-with open(f"./result/ok.txt", "wt") as f:
+with open(f"./result/ok.csv", "wt") as f:
     f.write(out_ok_list)
 out_ng_list = "\n".join(ng_list)
-with open(f"./result/ng.txt", "wt") as f:
+with open(f"./result/ng.csv", "wt") as f:
     f.write(out_ng_list)
