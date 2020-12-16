@@ -1,7 +1,7 @@
 # cut_pic
-Cutout picture into a square for image machine learning
+Cutout picture into a square for image machine learning.
 
-# necessary library
+# Necessary library
 os\
 cv2\
 numpy
