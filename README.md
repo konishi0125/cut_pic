@@ -16,7 +16,7 @@ numpy
    <img src="https://github.com/konishi0125/cut_pic/blob/main/readme_picture/bird.jpg" width="400px">
    <img src="https://github.com/konishi0125/cut_pic/blob/main/readme_picture/not_bird.jpg" width="320px">
 4. Two files "ok.txt" and "ng.txt" are made in "result" folder.\
-   ok.txt:picture name and cutout coordinates\
+   ok.txt : picture name and cutout coordinates\
    picture_name start_x start_y end_x end_y\
-   ng.txt:picture name:
+   ng.txt : picture name\
    picture_name
